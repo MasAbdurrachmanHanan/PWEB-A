@@ -1,1 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formpengisian</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#div1").remove();
+  });
+});
+</script>
+
+</head>
+<body style="height: max-content; background-image:url(https://wallup.net/wp-content/uploads/2019/10/884245-sakura-tokyo-spring-flower-peoples-tree-nature-pink.jpg); background-size: cover;">
+        <div class="text-black-100"> <!--warnai text-->
+            <div class="card-body"></div><!--agar background putih ditengah-->
+                <div class="container mt-3">
+                    <div class="p-5  bg-white rounded"><!--beri background putih-->
+                        <div class="col-12"></div><!--span 12(grid system)-->
+                            <div class="text-center" id="div1" style="border:1px solid black;background-color:rgb(253, 253, 253);">
+                            Tekan Remove untuk hilangkan kata ini
+                            <button>Remove</button>
+                            </div>
+                    </div>
+                </div>
+        </div>
+        <br>
+</body>
+</html>
 
